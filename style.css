@@ -1,0 +1,94 @@
+:root{
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-titulo: #2bfda2;
+    --cor-procedimento: #c12bfd;
+    --cor-titulo_ingrediente: #f6ffd7;
+    --cor-texto-ingrediente: #ec0a0a;
+    --cor-texto-receita: #aa9d08e6;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+h2{
+    color: var(--cor-titulo);
+}
+
+h3{
+    color: var(--cor-titulo_ingrediente);
+}
+
+ig{
+    color: var(--cor-texto-ingrediente) ;
+    display: grid ;
+    grid-template-columns: 5% 45% 5% 45% ;
+    gap: 10px 20px; /* Espaço entre colunas e linhas */
+    text-align: justify;
+}
+
+r{
+    color: var(--cor-texto-receita);
+}
+
+p{
+    color: var(--cor-procedimento);
+}
+
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+
+}
+
+
+:root{
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+}
+
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
