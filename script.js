@@ -3,7 +3,7 @@ const caixaReceita   = document.getElementById("caixa-receita") ;
 
 const receitas =[
     {
-        titulo    : "Receita1",
+        titulo    : "Bolo de mandioca",
         ingredientes :[
             {   imagem: 'imagem/mandioca.jpg',
                 descIngrediente: '3 xícaras de mandioca ralada grosso'
